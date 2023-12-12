@@ -5,9 +5,10 @@
 	- [x] Overview of the story
 	- [x] Overview of gameplay
 	- [x] Main game mechanics
-	- [ ] Core gameplay loop
-	- [ ] Controls and interface
+	- [x] Core gameplay loop
+	- [x] Controls and interface
 	- [ ] Game Items
 	- [ ] Game Systems
-	- [ ] Target platform(s)
+	- [x] Target platform(s)
 	- [x] Theme
+- [ ] Make mockups and place them into the doc.
