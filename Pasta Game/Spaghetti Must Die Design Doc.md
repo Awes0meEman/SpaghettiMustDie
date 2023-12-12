@@ -38,9 +38,34 @@ The theme of this game is right tools for the job. The player is primarily respo
 
 ## Gameplay Loop
 The gameplay loop will look something like this:
-- The player gets a mission from the 
+- The player gets a mission from an npc like the souse chef.
+- The player embarks on the mission through the spaghetti portal in the back of the restaurant
+- The player completes the mission by completing the given objectives, and possibly completing hidden objectives.
+- The player returns to the restaurant with the rewards from the mission and can use their new ingredients to craft new recipes.
+- The player can serve their new recipes to get money, or save them for their next mission.
+- If the player has some money they want to spend, they can place an order for ingredients or equipment that will arrive after their next mission, or pay extra to get express shipping to receive the order immediately.
 
 # The Story
 
 ## Overview
 Spaghetti Must Die is about a chef who fights against cultists who are trying to transform the world into spaghetti for their dark patron, the Flying Spaghetti Monster, and of course the only way to fight pasta... is with more pasta. The chef must perfect their pasta recipes to defeat the dark cult and save the world from becoming an endless sea of tomato sauce and meatballs. Along the way to overcoming the Flying Spaghetti Monster itself, our hero will come across various allies who will offer aid in varying ways. Some may offer equipment, or give clues to the location of secret rare ingredients. There will be several recurring characters as well, such as the souse chef, the delivery driver, and the friendly cultist. 
+
+# Controls
+## Mouse/Keyboard
+
+| Action | Default Control | Mockup |
+|--|--|--|
+| Move Left | A | |
+| Move Right | D | |
+| Jump | Space | |
+| Aim | Mouse Position | |
+|Shoot Primary | Left Click | |
+|Shoot Secondary | Right Click | |
+|Interact | E | |
+| Throw | Q | |
+
+# Interface
+I should probably design a UI. It's gonna have buttons and stuff and have a pixel art pasta theme.
+
+# Target Platforms
+Primary target is Windows PC. A scope increase target is Mobile.
