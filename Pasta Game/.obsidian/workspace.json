@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "6d71f751de6a6d0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "0936fa25c46d1f1a",
+        "type": "tabs",
+        "dimension": 27.899686520376182,
+        "children": [
+          {
+            "id": "62ed565fa8011dfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Todos/Design Doc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1d1fab5c443fd0cd",
+        "type": "tabs",
+        "dimension": 72.10031347962382,
+        "children": [
+          {
+            "id": "56148ac76117f7d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaghetti Must Die Design Doc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "83ab55e41c6636f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "10dfd773ca2a39f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5956504291c474ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b472127cee895366",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b80bc32d39665249",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cde0e792f0bf04c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f99e50457e2de2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37b3695fa12c2347",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Spaghetti Must Die Design Doc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fbf0ed56d41cf9cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Spaghetti Must Die Design Doc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "71c4fc7a8bc4e974",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a1b80037042e4543",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Spaghetti Must Die Design Doc.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "56148ac76117f7d4",
+  "lastOpenFiles": [
+    "Todos/Design Doc.md",
+    "Spaghetti Must Die Design Doc.md",
+    "Todos/Art.md",
+    "Todos/Sound.md",
+    "Todos/Game.md",
+    "Todos",
+    "Potential Names.md"
+  ]
+}
