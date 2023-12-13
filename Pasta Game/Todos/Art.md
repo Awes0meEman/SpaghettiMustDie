@@ -1,0 +1,2 @@
+- [x] Make a placeholder background.
+	- [ ] Animate it

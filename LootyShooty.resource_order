@@ -26,7 +26,9 @@
     {"name":"spr_laserR","order":5,"path":"sprites/spr_laserR/spr_laserR.yy",},
     {"name":"spr_cursor","order":7,"path":"sprites/spr_cursor/spr_cursor.yy",},
     {"name":"spr_lasGun","order":3,"path":"sprites/spr_lasGun/spr_lasGun.yy",},
+    {"name":"obj_background","order":7,"path":"objects/obj_background/obj_background.yy",},
     {"name":"obj_lasGun","order":3,"path":"objects/obj_lasGun/obj_lasGun.yy",},
+    {"name":"spr_background","order":8,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"obj_ground","order":1,"path":"objects/obj_ground/obj_ground.yy",},
   ],
 }

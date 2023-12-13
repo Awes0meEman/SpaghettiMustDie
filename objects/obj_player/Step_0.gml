@@ -18,7 +18,7 @@ if (place_meeting(x,y+2,obj_ground))
 }
 else if (move_y < 10) 
 {
-	if (keyboard_check(vk_space) && double_jump < 1)
+	if (keyboard_check(vk_space))
 	{
 		move_y = -jump_speed;
 	}

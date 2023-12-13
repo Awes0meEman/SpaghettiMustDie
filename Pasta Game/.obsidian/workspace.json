@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "0936fa25c46d1f1a",
-        "type": "tabs",
-        "dimension": 27.899686520376182,
-        "children": [
-          {
-            "id": "62ed565fa8011dfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Todos/Design Doc.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "1d1fab5c443fd0cd",
         "type": "tabs",
-        "dimension": 72.10031347962382,
         "children": [
           {
             "id": "56148ac76117f7d4",
@@ -33,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaghetti Must Die Design Doc.md",
+                "file": "Todos/Art.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaghetti Must Die Design Doc.md",
+                "file": "Todos/Art.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaghetti Must Die Design Doc.md",
+                "file": "Todos/Art.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaghetti Must Die Design Doc.md"
+                "file": "Todos/Art.md"
               }
             }
           }
@@ -168,11 +148,11 @@
   },
   "active": "56148ac76117f7d4",
   "lastOpenFiles": [
-    "Todos/Design Doc.md",
-    "Spaghetti Must Die Design Doc.md",
-    "Todos/Art.md",
-    "Todos/Sound.md",
     "Todos/Game.md",
+    "Todos/Design Doc.md",
+    "Todos/Art.md",
+    "Spaghetti Must Die Design Doc.md",
+    "Todos/Sound.md",
     "Todos",
     "Potential Names.md"
   ]
