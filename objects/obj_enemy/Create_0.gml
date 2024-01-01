@@ -10,7 +10,7 @@ hpCap = 100;
 healthbar_width = 20;
 healthbar_height = 2;
 healthbar_x = x - healthbar_width/2;
-healthbar_y = y - 10;
+healthbar_y = y - 20;
 
 healthBar = instance_create_layer(healthbar_x,healthbar_y,"Enemies",obj_healthBar);
 with (healthBar)
@@ -20,6 +20,5 @@ with (healthBar)
 		healthbar_x = other.healthbar_x;
 		healthbar_y = other.healthbar_y;
 		hp = other.hp;
-		hpCap = other.hpCap;
-		inst = other.id;
+		hpCap = other.hpCap
 }

@@ -7,4 +7,3 @@ healthbar_x = 0;
 healthbar_y = 0;
 hp = 0;
 hpCap = 0;
-inst = id;

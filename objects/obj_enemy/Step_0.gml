@@ -28,7 +28,7 @@ image_xscale = sign(obj_player.x - x);
 
 
 healthbar_x = x - healthbar_width/2;
-healthbar_y = y - 10;
+healthbar_y = y - 20;
 
 with(healthBar) {
 		healthbar_x = other.healthbar_x;
