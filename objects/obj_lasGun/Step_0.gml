@@ -14,17 +14,6 @@ else
 	image_yscale = 1;
 }
 
-/*
-if mouse_check_button_pressed(mb_left)
-{
-	instance_create_layer(x,y,"Projectiles",obj_laser, {
-		sprite_index: spr_laser,
-		spd: 10,
-		image_angle: image_angle
-	});
-}
-*/
-
 var _shoot = gun.fullauto ? mouse_check_button(mb_left) : mouse_check_button_pressed(mb_left);
 var _ammo = gun.ammo[bullet_index];
 

@@ -3,6 +3,8 @@
 move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 move_x *= move_speed;
 
+
+
 if (place_meeting(x,y+2,obj_ground))
 {
 	move_y = 0;
@@ -30,3 +32,12 @@ else if (move_y < 10)
 move_and_collide(move_x,move_y,obj_ground,4, 0, 0, move_speed, -1);
 
 image_xscale = sign(mouse_x - x);
+
+healthbar_x = x - healthbar_width/2;
+healthbar_y = y - 50;
+with(healthBar) {
+		healthbar_x = other.healthbar_x;
+		healthbar_y = other.healthbar_y;
+		hp = other.hp;
+		hpCap = other.hpCap;
+}

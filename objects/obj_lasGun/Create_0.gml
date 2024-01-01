@@ -12,19 +12,17 @@ laserR = {
 	rate_end: 20,
 	rate_mult: 0,
 	firerate: 10,
-	effect: ef_explosion,
-	effectColor: c_red
+	dmg: 25
 };
 
 laserg = {
-	sprite: spr_laserg,
+	sprite: spr_laserR,
 	spd: 20,
 	rate_start: 20,
 	rate_end: 20,
 	rate_mult: 0,
 	firerate: 10,
-	effect: ef_explosion,
-	effectColor: c_green
+	dmg: 20
 };
 
 

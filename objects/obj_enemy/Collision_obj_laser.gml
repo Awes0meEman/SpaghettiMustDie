@@ -2,4 +2,8 @@
 // You can write your code in this editor
 
 instance_destroy(other);
-instance_destroy();
+hp = hp - other.dmg;
+if (hp <= 0) {
+	instance_destroy();	
+	instance_destroy(healthBar);
+}
