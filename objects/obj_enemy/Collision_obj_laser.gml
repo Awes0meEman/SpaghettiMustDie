@@ -4,6 +4,5 @@
 instance_destroy(other);
 hp = hp - other.dmg;
 if (hp <= 0) {
-	instance_destroy();	
-	instance_destroy(healthBar);
+	instance_destroy();
 }

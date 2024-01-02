@@ -35,9 +35,3 @@ image_xscale = sign(mouse_x - x);
 
 healthbar_x = x - healthbar_width/2;
 healthbar_y = y - 50;
-with(healthBar) {
-		healthbar_x = other.healthbar_x;
-		healthbar_y = other.healthbar_y;
-		hp = other.hp;
-		hpCap = other.hpCap;
-}

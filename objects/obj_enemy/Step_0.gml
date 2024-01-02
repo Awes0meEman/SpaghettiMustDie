@@ -26,13 +26,5 @@ move_and_collide(move_x,move_y,obj_ground,4, 0, 0, move_speed, -1);
 
 image_xscale = sign(obj_player.x - x);
 
-
 healthbar_x = x - healthbar_width/2;
-healthbar_y = y - 20;
-
-with(healthBar) {
-		healthbar_x = other.healthbar_x;
-		healthbar_y = other.healthbar_y;
-		hp = other.hp;
-		hpCap = other.hpCap;
-}
+healthbar_y = y - 50;
