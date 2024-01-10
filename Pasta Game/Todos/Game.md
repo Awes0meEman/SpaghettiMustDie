@@ -6,7 +6,10 @@
 - [ ] Make movement feel a little bit less "slippery" [^2]
 - [ ] Implement a wall slide/wall jump mechanic
 - [ ] Implement a double jump
-- [ ] 
+- [x] Add an hp system
+	- [x] Display health bars
+- [ ] Make enemies move
+	- [ ] Make enemies attack
 
 
 # Management System

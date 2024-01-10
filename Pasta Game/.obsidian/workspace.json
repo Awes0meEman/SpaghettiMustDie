@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Todos/Art.md",
+                "file": "Todos/Game.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todos/Art.md",
+                "file": "Todos/Game.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todos/Art.md",
+                "file": "Todos/Game.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todos/Art.md"
+                "file": "Todos/Game.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "56148ac76117f7d4",
   "lastOpenFiles": [
+    "Todos/Art.md",
     "Todos/Game.md",
     "Todos/Design Doc.md",
-    "Todos/Art.md",
     "Spaghetti Must Die Design Doc.md",
     "Todos/Sound.md",
     "Todos",
