@@ -34,29 +34,30 @@ if (obj_player.x <= x + aggro_radius
 	}
 }
 
-
-if (place_meeting(x,y+2,obj_ground))
+var direction_x = sign(move_x);
+if (place_meeting(x + move_x, y -1 , obj_ground))
 {
-
-	move_y = 0;
-	if (!place_meeting(x+move_x, y+2, obj_ground) && place_meeting(x + move_x, y + 10, obj_ground))
+	while (!place_meeting(x + direction_x,y - 1,obj_ground))
 	{
-		move_y = abs(move_x);
-		//move_y = -jump_speed;
-
-		move_x = 0;
+		x += direction_x;
 	}
+	move_x = 0;
 }
-else if (move_y < 10) 
+
+//vertical movement
+if (place_meeting(x,y + move_y, obj_ground))
 {
-
-	move_y += 1;
+	while (!place_meeting(x,y + sign(move_y),obj_ground))
+	{
+		y = y + sign(move_y);
+	}
+	move_y = 0;
 }
 
-
-if (!obj_player.game_paused){
-move_and_collide(move_x,move_y,obj_ground,4, 0, 0, move_speed, -1);
-	
+if (!obj_player.game_paused)
+{
+	x += move_x;
+	y += move_y;
 }
 
 

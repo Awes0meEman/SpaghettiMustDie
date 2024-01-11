@@ -1,62 +1,58 @@
 /// @description Insert description here
 // You can write your code in this editor
-move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-move_x *= move_speed;
+var direction_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+move_x = direction_x * move_speed;
 move_y = move_y + grv;
+var onGround = place_meeting(x, y+2,obj_ground);
 
-if(place_meeting(x, y+1,obj_ground) && keyboard_check(vk_space))
+if(onGround && keyboard_check(vk_space))
 {
 	move_y = jump_speed * -1;
 }
 
-
-
 //horizonal movement
-if (place_meeting(x + move_x,y, obj_ground))
+
+if (place_meeting(x + move_x, y -1 , obj_wall))
 {
-	while (!place_meeting(x + sign(move_x),y,obj_ground))
+	while (!place_meeting(x + direction_x,y - 1,obj_wall))
 	{
-		x = x + sign(move_x);
+		x += direction_x;
 	}
 	move_x = 0;
 }
-x = x + move_x;
+x += move_x;
+
 //vertical movement
 if (place_meeting(x,y + move_y, obj_ground))
 {
+	/*
 	while (!place_meeting(x,y + sign(move_y),obj_ground))
 	{
 		y = y + sign(move_y);
-	}
+	}*/
 	move_y = 0;
 }
-y = y + move_y;
+y += move_y;
 
+//Animation
 
-
-
-
-
-/*
-if (place_meeting(x,y+2,obj_ground))
+if (!onGround)
 {
-	move_y = 0;
-	if (!place_meeting(x+move_x, y+2, obj_ground) && place_meeting(x + move_x, y + 10, obj_ground))
-	{
-		move_y = abs(move_x);
-		move_x = 0;
-	}
-	if (keyboard_check(vk_space))
-	{
-		move_y = -jump_speed;
-	}
+	//falling
+	sprite_index = spr_falling;
 }
-else if (move_y < 10) 
+else if (onGround && move_x == 0)
 {
-	move_y += 1;
+	//idle
+	sprite_index = spr_idle;
+}
+else if (onGround && move_x != 0)
+{
+	//running
+	sprite_index = spr_running;
 }
 
-move_and_collide(move_x,move_y,obj_ground,4, 0, 0, move_speed, -1);*/
+
 
 image_xscale = sign(mouse_x - x);
 
